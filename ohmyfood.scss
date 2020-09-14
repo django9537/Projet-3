@@ -1,0 +1,36 @@
+$breakpoint-phone: 414px;
+$background-section:#f6f6f6;
+
+@media screen and (max-width: $breakpoint-phone)
+{
+    body{
+        margin: 0;
+    }
+    .logo {
+      text-align: center;
+    }
+    .localisation{
+        height: 50px;
+        width: auto;
+        background-color: #eaeaea;
+        border-top:2px solid #cfcfcf;
+        &__txt{
+           text-align: center;
+        }
+    
+    }
+    .discover{
+        text-align: center;
+        height: 215px;
+        background-color: #f6f6f6;
+    }
+    .discover > h2{
+        margin-top: 0;
+        padding-top: 25px;
+    }
+    .discover > p{
+        width: 243px;
+        margin: auto;
+    }
+
+}
