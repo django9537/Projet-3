@@ -1,5 +1,9 @@
 $breakpoint-phone: 414px;
 $background-section:#f6f6f6;
+$color-primary:#9356dc;
+$color-secondary:#ff79da;
+$color-tertiary:#99e2d0;
+$color-degrade:#ee74da;
 
 @media screen and (max-width: $breakpoint-phone)
 {
@@ -21,16 +25,45 @@ $background-section:#f6f6f6;
     }
     .discover{
         text-align: center;
-        height: 215px;
+        height: 240px;
         background-color: #f6f6f6;
+        &__button{
+            background-image: linear-gradient($color-degrade, $color-primary);
+            width:190px;
+            height:50px;
+            border-radius:30px;
+            margin: auto;
+            margin-top: 37px;
+        }
+    }
+    .discover__button a {
+        display:block;
+        width:200px;
+        line-height:50px;
+        text-align:center;
+        color: white;
+        text-decoration: none;
     }
     .discover > h2{
         margin-top: 0;
         padding-top: 25px;
     }
     .discover > p{
-        width: 243px;
+        width: 320px;
         margin: auto;
+    }
+    .explore{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+         height: 220px;
+        &__button{
+            width:320px;
+            border-radius: 10px;
+            height: 60px;
+            background-color: $background-section;
+            margin:auto;
+        }
     }
 
 }
