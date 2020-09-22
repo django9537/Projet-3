@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 $breakpoint-phone: 414px;
 $background-section:#f6f6f6;
 $color-primary:#9356dc;
 $color-secondary:#ff79da;
 $color-tertiary:#99e2d0;
-$color-degrade:#ee74da;
+
 
 @media screen and (max-width: $breakpoint-phone)
 {
@@ -28,42 +29,93 @@ $color-degrade:#ee74da;
         height: 240px;
         background-color: #f6f6f6;
         &__button{
-            background-image: linear-gradient($color-degrade, $color-primary);
+            background-image: linear-gradient($color-secondary, $color-primary);
             width:190px;
             height:50px;
             border-radius:30px;
             margin: auto;
             margin-top: 37px;
+            border: none;
         }
     }
     .discover__button a {
-        display:block;
-        width:200px;
-        line-height:50px;
         text-align:center;
         color: white;
         text-decoration: none;
     }
     .discover > h2{
         margin-top: 0;
-        padding-top: 25px;
-    }
-    .discover > p{
-        width: 320px;
-        margin: auto;
+        padding-top: 25px;     
     }
     .explore{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-         height: 220px;
+         height: 250px;
         &__button{
-            width:320px;
-            border-radius: 10px;
+            border-radius: 20px;
             height: 60px;
             background-color: $background-section;
             margin:auto;
+            box-shadow:  4px 1px 10px -2px #939393;
+            display: flex;
         }
+        &__number{
+            border: 0 solid black;
+            width: 15px;
+            line-height: 15px;
+            height: 15px;
+            border-radius: 10px;
+            color: white;
+            background-color: $color-primary;
+            font-size: 0.6rem;
+            text-align: center;
+            margin-top: 22px;
+            margin-left: -5px;
+        }
+    }
+    .explore__number + i{
+        margin: 22px;
+    }
+    .explore__txt{
+        width: 200px;
+        margin: auto;
+    }
+    .restaurant{
+        background-color: $background-section;
+        & > h2 {
+            padding-top: 40px;
+        }
+    }
+    .restaurant__categorie{
+        width: fit-content;
+        margin: auto;
+        &--img{
+        margin-top: 25px;
+        border-top-left-radius: 25px 25px;
+        border-top-right-radius: 25px 25px;
+        }
+        &--txt{
+            display: flex;
+            justify-content: space-around;
+            height: 50px;
+            background-color: white;
+            border-bottom-left-radius: 25px 25px;
+            border-bottom-right-radius: 25px 25px;
+            margin: -3px;
+            & > p{
+                margin: 5px;
+            }
+        }
+    }
+    .fa-heart-o{
+        margin: 15px;
+        margin-left: 170px;
+    }
+    span{
+        font-weight: bold;
+    }
+    .contact{
+        background-color: 353535;
     }
 
 }

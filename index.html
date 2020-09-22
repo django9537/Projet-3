@@ -6,6 +6,7 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" type="text/css" href="ohmyfood.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -24,10 +25,9 @@
             <div class="discover">
                 <h2>Book the menu you like</h2>
                 <p>Discover the top-of-art restaurants we picked for you</p>
-                <div class="discover__button">
-                    <p class="discover__button--degrade">
+                <button class="discover__button">
                         <a href="#">Explore our restaurants</a> 
-                    </p>
+                </button>
                 </div>
             </div>
             <section>
@@ -35,12 +35,48 @@
                     How it works
                 </h2>
                 <div class="explore">
-                  <div class="explore__button"><i class="fa fa-mobile" aria-hidden="true"></i><p>choose a restaurant</p></div>
-                  <div class="explore__button"><i class="fa fa-list-ul" aria-hidden="true"></i><p>create your menu</p></div>
-                  <div class="explore__button"><p>Go enjoy it at the restaurant</p></div>
+                  <div class="explore__button"><p class="explore__number">1</p><i class="fas fa-mobile-alt"></i><p class="explore__txt">choose a restaurant</p></div>
+                  <div class="explore__button"><p class="explore__number">2</p><i class="fas fa-list-ul"></i><p class="explore__txt">create your menu</p></div>
+                  <div class="explore__button"><p class="explore__number">3</p><i class="fas fa-store"></i><p class="explore__txt">Go enjoy it at the restaurant</p></div>
+                </div>
+            </section>
+            <section>
+                <div class="restaurant">
+                    <h2>Restaurants</h2>
+                    <div class="restaurant__categorie">
+                       <div class="restaurant__categorie--pic">
+                         <img class="restaurant__categorie--img" src="jay-wennington-N.jpg" alt="first-restaurant">
+                       <div class="restaurant__categorie--txt">
+                             <p><span>Full Palette</span><br>York</p><i class="fa fa-heart-o fa-lg" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="restaurant__categorie">
+                        <div class="restaurant__categorie--pic">
+                        <img class="restaurant__categorie--img" src="stil-u.jpg" alt="second-restaurant">
+                        </div>
+                        <div class="restaurant__categorie--txt"><p><span>The Enchanted Plate</span><br>New York</p><i class="fa fa-heart-o fa-lg" aria-hidden="true"></i></div>
+                    </div>
+                    <div class="restaurant__categorie">
+                        <div class="restaurant__categorie--pic">
+                        <img class="restaurant__categorie--img" src="toa-heftiba.jpg" alt="third-restaurant">
+                        </div>
+                        <div class="restaurant__categorie--txt"><p><span>Bastille</span><br>New York</p><i class="fa fa-heart-o fa-lg" aria-hidden="true"></i></div>
+                    </div>
+                    <div class="restaurant__categorie">
+                        <div class="restaurant__categorie--pic">
+                        <img class="restaurant__categorie--img" src="louis-hansel-shotsoflouis-q.jpg" alt="fourth-restaurant">
+                        </div>
+                        <div class="restaurant__categorie--txt"><p><span>Le Gourmand</span><br>New York</p><i class="fa fa-heart-o fa-lg" aria-hidden="true"></i></div>
+                    </div>
                 </div>
             </section>
         </article>
+        <footer>
+            <div class="contact">
+                
+            </div>
+        </footer>
     </main>
     
 </body>

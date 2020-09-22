@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @media screen and (max-width: 414px) {
   body {
     margin: 0;
@@ -23,18 +24,16 @@
     background-color: #f6f6f6;
   }
   .discover__button {
-    background-image: linear-gradient(#ee74da, #9356dc);
+    background-image: linear-gradient(#ff79da, #9356dc);
     width: 190px;
     height: 50px;
     border-radius: 30px;
     margin: auto;
     margin-top: 37px;
+    border: none;
   }
 
   .discover__button a {
-    display: block;
-    width: 200px;
-    line-height: 50px;
     text-align: center;
     color: white;
     text-decoration: none;
@@ -45,23 +44,82 @@
     padding-top: 25px;
   }
 
-  .discover > p {
-    width: 320px;
-    margin: auto;
-  }
-
   .explore {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 220px;
+    height: 250px;
   }
   .explore__button {
-    width: 320px;
-    border-radius: 10px;
+    border-radius: 20px;
     height: 60px;
     background-color: #f6f6f6;
     margin: auto;
+    box-shadow: 4px 1px 10px -2px #939393;
+    display: flex;
+  }
+  .explore__number {
+    border: 0 solid black;
+    width: 15px;
+    line-height: 15px;
+    height: 15px;
+    border-radius: 10px;
+    color: white;
+    background-color: #9356dc;
+    font-size: 0.6rem;
+    text-align: center;
+    margin-top: 22px;
+    margin-left: -5px;
+  }
+
+  .explore__number + i {
+    margin: 22px;
+  }
+
+  .explore__txt {
+    width: 200px;
+    margin: auto;
+  }
+
+  .restaurant {
+    background-color: #f6f6f6;
+  }
+  .restaurant > h2 {
+    padding-top: 40px;
+  }
+
+  .restaurant__categorie {
+    width: fit-content;
+    margin: auto;
+  }
+  .restaurant__categorie--img {
+    margin-top: 25px;
+    border-top-left-radius: 25px 25px;
+    border-top-right-radius: 25px 25px;
+  }
+  .restaurant__categorie--txt {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    background-color: white;
+    border-bottom-left-radius: 25px 25px;
+    border-bottom-right-radius: 25px 25px;
+    margin: -3px;
+  }
+  .restaurant__categorie--txt > p {
+    margin: 5px;
+  }
+
+  .fa-heart-o {
+    margin: 15px;
+    margin-left: 170px;
+  }
+
+  span {
+    font-weight: bold;
+  }
+
+  .contact {
+    background-color: 353535;
   }
 }
 
