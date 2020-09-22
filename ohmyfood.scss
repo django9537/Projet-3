@@ -4,12 +4,14 @@ $background-section:#f6f6f6;
 $color-primary:#9356dc;
 $color-secondary:#ff79da;
 $color-tertiary:#99e2d0;
+$color-footer:#353535;
 
 
 @media screen and (max-width: $breakpoint-phone)
 {
     body{
         margin: 0;
+        padding: 0;
     }
     .logo {
       text-align: center;
@@ -82,6 +84,7 @@ $color-tertiary:#99e2d0;
     }
     .restaurant{
         background-color: $background-section;
+        padding-bottom: 50px;
         & > h2 {
             padding-top: 40px;
         }
@@ -102,6 +105,9 @@ $color-tertiary:#99e2d0;
             border-bottom-left-radius: 25px 25px;
             border-bottom-right-radius: 25px 25px;
             margin: -3px;
+            & > i{
+                margin-left: 114px;
+            }
             & > p{
                 margin: 5px;
             }
@@ -115,7 +121,16 @@ $color-tertiary:#99e2d0;
         font-weight: bold;
     }
     .contact{
-        background-color: 353535;
+        background-color: $color-footer;
+        color: whitesmoke;
+        margin-top: -20px;
+        padding-bottom: 1px;
+    }
+    h4{
+        padding: 15px;
+    }
+    li{
+        list-style-type: none;
     }
 
 }
