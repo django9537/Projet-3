@@ -1,0 +1,26 @@
+@import "font.scss";
+@import "utils.scss";
+
+@media screen and (max-width: $breakpoint-phone){
+    body{
+    margin: 0;
+    padding: 0;
+    font-family: $font-body;
+    }
+    .logo{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: -50px;
+    }
+    .restaurant__categorie--img{
+        width: 100%;
+    }
+    .menu{
+        border-top-left-radius: 25px 25px;
+        border-top-right-radius: 25px 25px;
+        background-color: $background-section;
+    }
+    h2{
+        font-family: $font-title;
+    }
+}

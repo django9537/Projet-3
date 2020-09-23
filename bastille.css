@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "roboto";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+}
+@font-face {
+  font-family: "shrikhand";
+  src: url(Shrikhand-Regular.otf);
+}
+@media screen and (max-width: 414px) {
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+  }
+
+  .logo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -50px;
+  }
+
+  .restaurant__categorie--img {
+    width: 100%;
+  }
+
+  .menu {
+    border-top-left-radius: 25px 25px;
+    border-top-right-radius: 25px 25px;
+    background-color: #f6f6f6;
+  }
+
+  h2 {
+    font-family: "shrikhand";
+  }
+}
+
+/*# sourceMappingURL=bastille.css.map */
