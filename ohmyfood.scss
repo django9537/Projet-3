@@ -1,27 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-$breakpoint-phone: 414px;
-$background-section:#f6f6f6;
-$color-primary:#9356dc;
-$color-secondary:#ff79da;
-$color-tertiary:#99e2d0;
-$color-footer:#353535;
-
-@font-face{
-    font-family: 'roboto';
-    src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-}
-@font-face{
-    font-family: 'shrikhand';
-    src: url(Shrikhand-Regular.otf);
-}
-
+@import "utils.scss";
+@import "font.scss";
 
 @media screen and (max-width: $breakpoint-phone)
 {
     body{
         margin: 0;
         padding: 0;
-        font-family: roboto;
+        font-family: $font-body;
     }
     .logo {
       text-align: center;
@@ -138,7 +123,7 @@ $color-footer:#353535;
     }
     h4{
         padding: 15px;
-        font-family: shrikhand;
+        font-family: $font-title;
     }
     li{
         list-style-type: none;
