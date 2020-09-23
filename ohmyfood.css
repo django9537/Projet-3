@@ -1,8 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@font-face {
+  font-family: "roboto";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+}
+@font-face {
+  font-family: "shrikhand";
+  src: url(Shrikhand-Regular.otf);
+}
 @media screen and (max-width: 414px) {
   body {
     margin: 0;
     padding: 0;
+    font-family: roboto;
   }
 
   .logo {
@@ -132,6 +141,7 @@
 
   h4 {
     padding: 15px;
+    font-family: shrikhand;
   }
 
   li {
