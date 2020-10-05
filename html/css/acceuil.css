@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: "shrikhand";
-  src: url(Shrikhand-Regular.otf);
+  src: url(../../asset/Shrikhand-Regular.otf);
 }
 @media all and (min-width: 415px) and (max-width: 1024px) {
   body {
@@ -59,12 +59,12 @@
   .discover > h2 {
     margin-top: 0;
     padding-top: 25px;
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   section > h2 {
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   .explore {
@@ -84,6 +84,8 @@
   }
   .explore__button:hover {
     background-color: #f5edff;
+  }
+  .explore__button:hover > i {
     color: #9356dc;
   }
   .explore__number {
@@ -113,15 +115,19 @@
     background-color: #f6f6f6;
     padding-bottom: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 52px;
   }
   .restaurant > h2 {
     position: absolute;
     margin-top: -30px;
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: "roboto";
+  }
+  .restaurant > a {
+    text-decoration: none;
+    color: black;
   }
 
   .restaurant__categorie {
@@ -231,12 +237,12 @@
   .discover > h2 {
     margin-top: 0;
     padding-top: 25px;
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   section > h2 {
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   .explore {
@@ -256,6 +262,8 @@
   }
   .explore__button:hover {
     background-color: #f5edff;
+  }
+  .explore__button:hover > i {
     color: #9356dc;
   }
   .explore__number {
@@ -285,15 +293,19 @@
     background-color: #f6f6f6;
     padding-bottom: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 52px;
   }
   .restaurant > h2 {
     position: absolute;
     margin-top: -30px;
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: "roboto";
+  }
+  .restaurant > a {
+    text-decoration: none;
+    color: black;
   }
 
   .restaurant__categorie {

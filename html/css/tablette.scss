@@ -15,9 +15,10 @@
             margin-right: auto;
         }
     }
-    .logo > i{
+    .arrow > i{
         position: absolute;
         top: 9px;
+        color: black;
     }
     .restaurant__categorie--img{
         width: 100%;
@@ -149,7 +150,7 @@
     }
     @keyframes check{
         0%{
-            transform:translateX(100%) ;
+            transform: translateX(100%);
         }
         100%{
             transform: translateX(0%);
@@ -197,9 +198,10 @@
                 margin-right: auto;
             }
         }
-        .logo > i{
+        .arrow > i{
             position: absolute;
             top: 9px;
+            color: black;
         }
         .restaurant__categorie--img{
             width: 100%;
