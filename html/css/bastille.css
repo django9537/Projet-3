@@ -137,7 +137,7 @@
 
   .menu__choice:hover > .menu__carte--check {
     display: flex;
-    animation: check 500ms;
+    animation: check 500ms ease-in-out forwards;
   }
   .menu__choice:hover > .menu__carte--check .fa-check-circle {
     display: block;
@@ -154,11 +154,15 @@
     }
   }
   @keyframes check {
-    0% {
-      transform: translateX(100%);
+    from {
+      transform: scaleY(1);
+      transform: scaleX(0);
+      transform-origin: right;
     }
-    100% {
-      transform: translateX(0%);
+    to {
+      transform: scaleY(1);
+      transform: scaleX(1);
+      transform-origin: right;
     }
   }
   .menu__button:hover {
