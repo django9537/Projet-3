@@ -12,8 +12,9 @@
         background-color: whitesmoke;
         width: 100%;
         height: 200%;
+        z-index: 1;
         text-align: center;
-        animation: loader 1s ease-in-out 1.5s reverse both;
+        animation: loader 1s ease-in-out 1.5s reverse forwards;
         &__img{
             margin: 10rem 0;
         }
