@@ -272,6 +272,11 @@
     display: flex;
     justify-content: space-around;
   }
+
+  li > a {
+    text-decoration: none;
+    color: white;
+  }
 }
 @media all and (min-width: 415px) and (max-width: 899px) {
   body {
@@ -528,6 +533,11 @@
   li {
     list-style-type: none;
     margin: 12px;
+  }
+
+  li > a {
+    text-decoration: none;
+    color: white;
   }
 }
 
