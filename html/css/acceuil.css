@@ -82,16 +82,12 @@
     margin-top: 37px;
     border: none;
     font-size: 17px;
+    text-align: center;
+    color: white;
   }
   .discover__button:hover {
     box-shadow: 5px 2px 10px -2px #939393;
     opacity: 0.9;
-  }
-
-  .discover__button a {
-    text-align: center;
-    color: white;
-    text-decoration: none;
   }
 
   .discover > h2 {
@@ -196,11 +192,80 @@
     margin: 5px;
   }
 
-  .fa-heart-o {
+  .fa-heart {
     margin: 15px;
     margin-left: 170px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+  .fa-heart:hover {
+    animation: heart-filling 1s;
+    animation-fill-mode: forwards;
   }
 
+  @keyframes heart-filling {
+    10% {
+      background: linear-gradient(0deg, #FF79DA 0%, #9356DC 10%, #99E2D0 0%);
+      -webkit-text-stroke-width: 0px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    20% {
+      background: linear-gradient(0deg, #FF79DA 0%, #9356DC 20%, #99E2D0 10%);
+      -webkit-text-stroke-width: 0px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    30% {
+      background: linear-gradient(0deg, #FF79DA 0%, #9356DC 30%, #99E2D0 20%);
+      -webkit-text-stroke-width: 0px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    40% {
+      background: linear-gradient(0deg, #FF79DA 0%, #9356DC 40%, #99E2D0 30%);
+      -webkit-text-stroke-width: 0px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    50% {
+      background: linear-gradient(0deg, #FF79DA 0%, #9356DC 50%, #99E2D0 40%);
+      -webkit-text-stroke-width: 0px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    60% {
+      background: linear-gradient(0deg, #FF79DA 0%, #9356DC 60%, #99E2D0 50%);
+      -webkit-text-stroke-width: 0px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    70% {
+      background: linear-gradient(0deg, #FF79DA 0%, #9356DC 70%, #99E2D0 60%);
+      -webkit-text-stroke-width: 0px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    80% {
+      background: linear-gradient(0deg, #FF79DA 0%, #9356DC 80%, #99E2D0 70%);
+      -webkit-text-stroke-width: 0px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    90% {
+      background: linear-gradient(0deg, #FF79DA 0%, #9356DC 90%, #99E2D0 80%);
+      -webkit-text-stroke-width: 0px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    100% {
+      background: linear-gradient(0deg, #FF79DA 0%, #9356DC 100%);
+      -webkit-text-stroke-width: 0px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
   span {
     font-weight: bold;
   }
@@ -298,16 +363,12 @@
     margin-top: 37px;
     border: none;
     font-size: 17px;
+    text-align: center;
+    color: white;
   }
   .discover__button:hover {
     box-shadow: 5px 2px 10px -2px #939393;
     opacity: 0.9;
-  }
-
-  .discover__button a {
-    text-align: center;
-    color: white;
-    text-decoration: none;
   }
 
   .discover > h2 {
@@ -412,15 +473,80 @@
     margin: 5px;
   }
 
-  .fa-heart-o {
+  .fa-heart {
     margin: 15px;
     margin-left: 170px;
-    transition: 0, 3s;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
   }
-  .fa-heart-o:hover {
-    color: #9356dc;
+  .fa-heart:hover {
+    animation: heart-filling 1s;
+    animation-fill-mode: forwards;
   }
 
+  @keyframes heart-filling {
+    10% {
+      background: linear-gradient(0deg, #FF79DA 0%, #9356DC 10%, #99E2D0 0%);
+      -webkit-text-stroke-width: 0px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    20% {
+      background: linear-gradient(0deg, #FF79DA 0%, #9356DC 20%, #99E2D0 10%);
+      -webkit-text-stroke-width: 0px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    30% {
+      background: linear-gradient(0deg, #FF79DA 0%, #9356DC 30%, #99E2D0 20%);
+      -webkit-text-stroke-width: 0px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    40% {
+      background: linear-gradient(0deg, #FF79DA 0%, #9356DC 40%, #99E2D0 30%);
+      -webkit-text-stroke-width: 0px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    50% {
+      background: linear-gradient(0deg, #FF79DA 0%, #9356DC 50%, #99E2D0 40%);
+      -webkit-text-stroke-width: 0px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    60% {
+      background: linear-gradient(0deg, #FF79DA 0%, #9356DC 60%, #99E2D0 50%);
+      -webkit-text-stroke-width: 0px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    70% {
+      background: linear-gradient(0deg, #FF79DA 0%, #9356DC 70%, #99E2D0 60%);
+      -webkit-text-stroke-width: 0px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    80% {
+      background: linear-gradient(0deg, #FF79DA 0%, #9356DC 80%, #99E2D0 70%);
+      -webkit-text-stroke-width: 0px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    90% {
+      background: linear-gradient(0deg, #FF79DA 0%, #9356DC 90%, #99E2D0 80%);
+      -webkit-text-stroke-width: 0px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    100% {
+      background: linear-gradient(0deg, #FF79DA 0%, #9356DC 100%);
+      -webkit-text-stroke-width: 0px;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
   span {
     font-weight: bold;
   }

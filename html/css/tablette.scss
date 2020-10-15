@@ -102,9 +102,82 @@
         font-family: $font-title;
         padding-left: 10px;
     }
-    .fa-heart-o{
+    .fa-heart{
         margin: 25px;
+        -webkit-text-fill-color: white;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+        &:hover{
+           animation: heart-filling 1s;
+           animation-fill-mode: forwards;
+        }
     }
+    @keyframes heart-filling {
+        0% {
+          
+        }
+        10% {
+          background: linear-gradient(0deg, #FF79DA 0%, #9356DC 10%, #99E2D0 0%);
+          -webkit-text-stroke-width: 0px;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+        20% {
+          background: linear-gradient(0deg, #FF79DA 0%, #9356DC 20%, #99E2D0 10%);
+          -webkit-text-stroke-width: 0px;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+        30% {
+          background: linear-gradient(0deg, #FF79DA 0%, #9356DC 30%, #99E2D0 20%);
+          -webkit-text-stroke-width: 0px;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+        40% {
+          background: linear-gradient(0deg, #FF79DA 0%, #9356DC 40%, #99E2D0 30%);
+          -webkit-text-stroke-width: 0px;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+        50% {
+          background: linear-gradient(0deg, #FF79DA 0%, #9356DC 50%, #99E2D0 40%);
+          -webkit-text-stroke-width: 0px;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+        60% {
+          background: linear-gradient(0deg, #FF79DA 0%, #9356DC 60%, #99E2D0 50%);
+          -webkit-text-stroke-width: 0px;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+        70% {
+          background: linear-gradient(0deg, #FF79DA 0%, #9356DC 70%, #99E2D0 60%);
+          -webkit-text-stroke-width: 0px;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+        80% {
+          background: linear-gradient(0deg, #FF79DA 0%, #9356DC 80%, #99E2D0 70%);
+          -webkit-text-stroke-width: 0px;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+        90% {
+          background: linear-gradient(0deg, #FF79DA 0%, #9356DC 90%, #99E2D0 80%);
+          -webkit-text-stroke-width: 0px;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+        100% {
+          background: linear-gradient(0deg, #FF79DA 0%, #9356DC 100%);
+          -webkit-text-stroke-width: 0px;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+    
     h4{
         font-weight: normal;
         margin-left: 10px;
@@ -284,9 +357,82 @@
             font-family: $font-title;
             padding-left: 10px;
         }
-        .fa-heart-o{
+        .fa-heart{
             margin: 25px;
+            -webkit-text-fill-color: white;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: black;
+            &:hover{
+               animation: heart-filling 1s;
+               animation-fill-mode: forwards;
+            }
         }
+        @keyframes heart-filling {
+            0% {
+              
+            }
+            10% {
+              background: linear-gradient(0deg, #FF79DA 0%, #9356DC 10%, #99E2D0 0%);
+              -webkit-text-stroke-width: 0px;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+            20% {
+              background: linear-gradient(0deg, #FF79DA 0%, #9356DC 20%, #99E2D0 10%);
+              -webkit-text-stroke-width: 0px;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+            30% {
+              background: linear-gradient(0deg, #FF79DA 0%, #9356DC 30%, #99E2D0 20%);
+              -webkit-text-stroke-width: 0px;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+            40% {
+              background: linear-gradient(0deg, #FF79DA 0%, #9356DC 40%, #99E2D0 30%);
+              -webkit-text-stroke-width: 0px;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+            50% {
+              background: linear-gradient(0deg, #FF79DA 0%, #9356DC 50%, #99E2D0 40%);
+              -webkit-text-stroke-width: 0px;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+            60% {
+              background: linear-gradient(0deg, #FF79DA 0%, #9356DC 60%, #99E2D0 50%);
+              -webkit-text-stroke-width: 0px;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+            70% {
+              background: linear-gradient(0deg, #FF79DA 0%, #9356DC 70%, #99E2D0 60%);
+              -webkit-text-stroke-width: 0px;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+            80% {
+              background: linear-gradient(0deg, #FF79DA 0%, #9356DC 80%, #99E2D0 70%);
+              -webkit-text-stroke-width: 0px;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+            90% {
+              background: linear-gradient(0deg, #FF79DA 0%, #9356DC 90%, #99E2D0 80%);
+              -webkit-text-stroke-width: 0px;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+            100% {
+              background: linear-gradient(0deg, #FF79DA 0%, #9356DC 100%);
+              -webkit-text-stroke-width: 0px;
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+          }
+       
         h4{
             font-weight: normal;
             margin-left: 10px;
