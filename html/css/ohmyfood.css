@@ -271,6 +271,11 @@
   li {
     list-style-type: none;
   }
+
+  li > a {
+    text-decoration: none;
+    color: white;
+  }
 }
 
 /*# sourceMappingURL=ohmyfood.css.map */

@@ -271,6 +271,10 @@
     li{
         list-style-type: none;
     }
+    li > a{
+        text-decoration: none;
+        color: white;
+    }
 }
 @media screen and (min-width: $breakpoint-tablet +1){
 body{
@@ -544,6 +548,10 @@ body{
     ul{
         display: flex;
         justify-content: space-around;
+    }
+    li > a{
+        text-decoration: none;
+        color: white;
     }
 }
     
